@@ -1,6 +1,9 @@
-if(input.button_is_pressed(Button.A)):
+def on_button_pressed_a():
     basic.show_string("Shannon")
+input.on_button_pressed(Button.A, on_button_pressed_a)
 
-if (input.button_is_pressed(Button.B)):
+def on_button_pressed_b():
     basic.show_number(randint(1, 100))
+input.on_button_pressed(Button.B, on_button_pressed_b)
+
 

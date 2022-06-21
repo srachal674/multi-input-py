@@ -1,8 +1,6 @@
-if (input.buttonIsPressed(Button.A)) {
+input.onButtonPressed(Button.A, function on_button_pressed_a() {
     basic.showString("Shannon")
-}
-
-if (input.buttonIsPressed(Button.B)) {
+})
+input.onButtonPressed(Button.B, function on_button_pressed_b() {
     basic.showNumber(randint(1, 100))
-}
-
+})
