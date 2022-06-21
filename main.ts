@@ -1,10 +1,10 @@
+input.buttonIsPressed(Button.A)
 function greeting() {
-    input.buttonIsPressed(Button.A)
     basic.showString("Shannon")
 }
 
+input.buttonIsPressed(Button.B)
 function num() {
-    input.buttonIsPressed(Button.B)
     basic.showNumber(randint(1, 100))
 }
 
